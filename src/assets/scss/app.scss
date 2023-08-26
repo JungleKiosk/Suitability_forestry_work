@@ -2,11 +2,17 @@
 
 @use "./partials/_variables.scss" as *;
 @use "./partials/_appMap.scss";
+@use "./partials/_footer.scss";
 
 body {
     background-color: $bg_body;
     color: $light;
     font-family: 'Nunito', sans-serif;
+}
+
+.bg_item {
+    background-color: $dark ;
+    color: $light;
 }
 
 
@@ -22,6 +28,13 @@ body {
 
 .container p a {
     color: $info;
+}
+
+.bg_btn {
+    border: 3px solid $info;
+    color: $info;
+    border-radius: 30px;
+    background-color: $bg_body;
 }
 
 

@@ -19,7 +19,7 @@ export default {
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6 col-md-6 bg_item rounded-4">
                 <div class="d-flex align-items-center justify-content-between p-3">
-                    <h3 class="title">Morphology & Climatic</h3>
+                    <h3>Concept</h3>
                     <button class="bg_btn mx-3" @click="toggleContent">{{ showContent ? 'Hide' : 'Show' }}</button>
                 </div>
                 <div v-show="showContent">
