@@ -3,35 +3,8 @@
 export default {
     data() {
         return {
-            ecosystemServices: [
-                {
-                    name: 'Provision Resources',
-                    description: 'Timber, non-wood products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and industry, form an essential part of the forest\'s productive services. '
-                },
-                {
-                    name: 'Climate Regulation',
-                    description: 'Forests help regulate global climate through the sequestration of atmospheric carbon and the production of oxygen.'
-                },
-                {
-                    name: 'Prevention Natural Disasters',
-                    description: 'The protective function of mitigates the effects of extreme natural events. Trees act as natural barriers against landslides, floods and avalanches and reducing soil erosion.'
-                },
-                {
-                    name: 'Management Water Resources',
-                    description: 'Forests absorb rainwater, reducing the risk of flooding and supplying water to the groundwater. Additionally, tree roots help filter and purify water.'
-                },
-                {
-                    name: 'Promotion Recreational Activities',
-                    description: 'Woodlands provide recreation and leisure spaces for people. Outdoor activities such as hiking, cycling, camping and wildlife viewing contribute to people\'s physical and mental well-being.'
-                }
-            ],
-            activeDescriptionIndex: null
+
         };
-    },
-    methods: {
-        toggleDescription(index) {
-            this.activeDescriptionIndex = this.activeDescriptionIndex === index ? null : index;
-        }
     }
 }
 </script>
@@ -53,14 +26,71 @@ export default {
                     hydrogeological and recreational functions.
                 </p>
 
-                <ul class="ecosystem-services-list text-center">
-                    <li v-for="(service, index) in ecosystemServices" :key="index">
-                        <button class="btn_eco rounded-4 px-2 py-1" @click="toggleDescription(index)">{{ service.name
-                        }}</button>
-                        <p :class="['service-description', { active: activeDescriptionIndex === index }]">{{
-                            service.description }}</p>
-                    </li>
-                </ul>
+                <div class="row my-5">
+
+                    <div class="col-6 col-lg-6">
+                        <h3>Provision Resources</h3>
+                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                            industry, form an essential part of the forest's productive services.
+                        </p>
+
+                    </div>
+                    <div class="col-6 col-lg-6">
+
+                    </div>
+
+                    <div class="col-6 col-lg-6">
+                        
+                    </div>
+                    <div class="col-6 col-lg-6">
+                        <h3>Provision Resources</h3>
+                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                            industry, form an essential part of the forest's productive services.
+                        </p>
+
+                    </div>
+
+                    <div class="col-6 col-lg-6">
+                        <h3>Provision Resources</h3>
+                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                            industry, form an essential part of the forest's productive services.
+                        </p>
+
+                    </div>
+                    <div class="col-6 col-lg-6">
+
+                    </div>
+
+                    <div class="col-6 col-lg-6">
+                        
+                    </div>
+                    <div class="col-6 col-lg-6">
+                        <h3>Provision Resources</h3>
+                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                            industry, form an essential part of the forest's productive services.
+                        </p>
+
+                    </div>
+
+                    <div class="col-6 col-lg-6">
+                        <h3>Provision Resources</h3>
+                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                            industry, form an essential part of the forest's productive services.
+                        </p>
+
+                    </div>
+                    <div class="col-6 col-lg-6">
+
+                    </div>
+
+
+
+                </div>
 
 
                 <h1 class="title">Stationary Analysis: distance & slope</h1>
@@ -111,11 +141,11 @@ export default {
 }
 
 .btn_eco {
-    border: 2px solid #f2b91e;
+    border: 2px solid #13e764;
     color: white;
     background-color: #333333;
     font-weight: bold;
-    animation: heartbeat 5s infinite;
+    animation: heartbeat 7s infinite;
 }
 
 @keyframes heartbeat {
@@ -125,6 +155,8 @@ export default {
 
     25% {
         transform: scale(1.1);
+        color: white;
+        background-color: #13e76455;
     }
 }
 </style>
