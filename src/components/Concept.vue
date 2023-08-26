@@ -41,12 +41,37 @@ export default {
                         The GIS analysis procedure is based on the concept of "Boolean intersection" of the constraints
                         placed. In essence, it overlays slope and road distance information onto a geospatial map, allowing
                         you to locate parcels that meet the requirements specified by both criteria.
+                        <br><br>
+                        Within the scheme proposed by Hippoliti and Piegai, different intervals of distance from the roads
+                        and slope are defined which influence the suitability of the parcels. These intervals are:
+
+                    <ul>
+                        <li>Distance from roads &lt; 1000m, slope &lt; 20%</li>
+                        <li>Distance from roads &lt; 500m, 20% &lt; slope &lt; 40%</li>
+                        <li>Distance from roads &lt; 250m, 40% &lt; slope &lt; 60%</li>
+                        <li>Distance from roads &lt; 100m, slope &gt; 60%</li>
+                    </ul>
+                    <img class="rounded-4" src="../assets/img/graph_hippieg.png" alt="">
+
+                    <br> <br> <br>
+                    Slopes greater than 60% imply the impossibility of transit of forestry work machines, therefore an
+                    accumulation of timber on the road using the winch.
+                    <br> <br> <br>
+
+                    <img class="rounded-4"  src="../assets/img/winch_forest.png" alt="">
+                    
+                    <hr>
+
+                    
+
                     </p>
 
                     <div class="end_soiltext p-3">
                         <a href="#goup">^ Go Up ^</a>
                         <button class="bg_btn mx-3" @click="toggleContent">{{ showContent ? 'Hide' : '' }}</button>
                     </div>
+
+
 
 
                 </div>
@@ -62,10 +87,6 @@ export default {
     color: #aaaaaa;
 }
 
-a {
-    color: #f2b91e;
-    text-decoration: underline;
-}
 
 .zoom_plots {
     transition: transform 0.2s ease-in-out;
