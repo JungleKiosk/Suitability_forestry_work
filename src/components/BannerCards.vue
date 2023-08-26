@@ -17,19 +17,13 @@ export default {
 </script>
 
 <template>
-    <div class="container my-5">
+    
+    <div class="container my-2">
         <div class="row align-items-stretch justify-content-center">
-            <div class="container p-4">
-                <div class="row justify-content-center">
-                    <div
-                        class="col-12 col-lg-8 col-md-8 bg_item rounded-4 d-flex align-items-center justify-content-center">
-                        <h1 class="text-center p-2">Methods of analysis</h1>
-                    </div>
-                </div>
-            </div>
+            
             <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
                 <div class="card rounded-4 bg_card my-3 d-flex bg_item">
-                    <div class="card-header">
+                    <div class="card-header title" style="font-size: large;">
                         {{ link.title }}
                     </div>
                     <div class="card-body d-flex flex-column">

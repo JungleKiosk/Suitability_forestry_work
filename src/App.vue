@@ -29,8 +29,8 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <Jumbotron></Jumbotron>
-  <BannerCards :links="linksData"></BannerCards>
   <Concept></Concept>
+  <BannerCards :links="linksData"></BannerCards>
   <FeaturesHistory></FeaturesHistory>
   <AppFooter></AppFooter>
 </template>

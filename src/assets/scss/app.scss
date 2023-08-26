@@ -23,18 +23,28 @@ body {
 
 .title {
     font-weight: 500;
-    color: $info;
+    color: $shadow_stack;
 }
 
 .container p a {
-    color: $info;
+    color: $shadow_stack;
 }
 
 .bg_btn {
-    border: 3px solid $info;
-    color: $info;
+    border: 3px solid $shadow_stack;
+    color:$shadow_stack;
     border-radius: 30px;
     background-color: $bg_body;
+    transition: transform 0.1s ease;
+    font-weight: bold;
+}
+
+.bg_btn:hover {
+    transform: scale(1.1);
+    background-color: #00ff62;
+    color: $bg_body;
+    border: 3px solid $bg_body;
+    font-weight: bold;
 }
 
 
