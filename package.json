@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
     "bootstrap": "^5.3.1",
+    "leaflet": "^1.9.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
