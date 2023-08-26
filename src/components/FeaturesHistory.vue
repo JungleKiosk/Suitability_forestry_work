@@ -22,7 +22,7 @@ export default {
     <div id="goup" class="container my-5 txt_jumbo">
         <div class="row justify-content-center ">
             <div class="col-12 col-lg-12 col-md-8 bg_item rounded-4">
-                <h1 class="title">Features & History</h1>
+                <h1>Features & History</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, aut! Debitis qui possimus ipsum, velit
                     eum fuga iusto accusantium cum eaque delectus laborum, nisi aut ut excepturi, aspernatur dolorum

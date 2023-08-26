@@ -40,7 +40,6 @@ export default {
         closeMarkerCard() {
             this.selectedMarker = null;
         }
-
     }
 }
 
@@ -51,7 +50,7 @@ export default {
 <template>
     <div id="app_map" class="container my-3">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-6">
 
                 <l-map style="height: 800px;" :zoom="zoom" :center="center">
                     <l-tile-layer :url="url_osm" :attribution="attribution"></l-tile-layer>
