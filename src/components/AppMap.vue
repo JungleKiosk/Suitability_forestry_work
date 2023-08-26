@@ -52,7 +52,7 @@ export default {
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
 
-                <l-map style="height: 800px;" :zoom="zoom" :center="center">
+                <l-map style="height: 500px;" :zoom="zoom" :center="center">
                     <l-tile-layer :url="url_osm" :attribution="attribution"></l-tile-layer>
 
                     <template v-for="(coordinate, index) in marker_points" :key="index">

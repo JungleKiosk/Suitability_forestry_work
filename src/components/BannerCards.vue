@@ -17,10 +17,10 @@ export default {
 </script>
 
 <template>
-    
+
     <div class="container my-2">
         <div class="row align-items-stretch justify-content-center">
-            
+
             <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
                 <div class="card rounded-4 bg_card my-3 d-flex bg_item">
                     <div class="card-header title" style="font-size: large;">
@@ -49,7 +49,7 @@ img {
     width: 100%;
 }
 
-.link_video a{
+.link_video a {
     text-decoration: none;
 }
 

@@ -8,6 +8,8 @@ import FeaturesHistory from './components/FeaturesHistory.vue';
 import BannerCards from './components/BannerCards.vue';
 import Concept from './components/Concept.vue';
 import AppFooter from './components/AppFooter.vue';
+import FileCode from './components/FileCode.vue';
+
 
 
 export default {
@@ -15,7 +17,7 @@ export default {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, BannerCards, Concept, FeaturesHistory, AppFooter },
+  components: { AppHeader, BannerCards, Concept, Jumbotron, FeaturesHistory, AppFooter, FileCode },
   computed: {
     linksData() {
       return links;
@@ -28,9 +30,10 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  <Jumbotron></Jumbotron>
   <Concept></Concept>
+  <FileCode></FileCode>
   <BannerCards :links="linksData"></BannerCards>
+  <Jumbotron></Jumbotron>
   <FeaturesHistory></FeaturesHistory>
   <AppFooter></AppFooter>
 </template>

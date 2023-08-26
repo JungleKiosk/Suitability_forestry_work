@@ -12,7 +12,7 @@ export default {
 
 
 <template>
-    <div id="goup" class="container my-5 txt_jumbo">
+    <div class="container my-5 txt_jumbo">
         <div class="row justify-content-center ">
             <div class="col-12 col-lg-12">
                 <h1 class="title">Stationary Analysis: distance & slope</h1>

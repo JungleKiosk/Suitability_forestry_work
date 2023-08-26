@@ -13,7 +13,7 @@ export default {
 
 
 <template>
-    <header>
+    <header id="goup">
         <div class="container-fluid bg-image">
             <div class="row">
                 <div class="col-12 col-lg-12 col-md-8 rounded-4 d-flex align-items-center">
