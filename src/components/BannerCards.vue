@@ -21,11 +21,12 @@ export default {
     <div class="container my-2">
         <div class="row align-items-stretch justify-content-center">
 
-            <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
+            <div v-for="link in links" :key="link.title" class="col-12 col-lg-4 col-md-6">
                 <div class="card rounded-4 bg_card my-3 d-flex bg_item">
                     <div class="card-header title" style="font-size: large;">
                         {{ link.title }}
                     </div>
+
                     <div class="card-body d-flex flex-column">
                         <p>{{ link.desc }}</p>
                         <img class="rounded-4 card_img_zoom" :src="getImagePath(link.img)" alt="Image"
@@ -37,6 +38,7 @@ export default {
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

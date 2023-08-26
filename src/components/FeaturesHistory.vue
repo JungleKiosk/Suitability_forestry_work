@@ -24,12 +24,54 @@ export default {
             <div class="col-12 col-lg-12 col-md-8 rounded-4">
                 <h1 class="title">Features & History</h1>
                 <h5>
+
+                    With an area of about 5000ha, the Alto Rabbi complex is part of the land belonging to the
+                    forestry-forestry property of the Emilia-Romagna Region, managed by the Provincial Administration of
+                    Forlì-Cesena.
+                    The entire area falls entirely within the Municipality of Premilcuore, defining the Tuscan-Emilian
+                    border along the ridge. <br> <br>
+
+                    The orography is very articulated, between the ridges that reach altitudes between 700 and 900 m a.s.l.;
+                    the data more
+                    interesting to analyze in the development of an adjustment plan are however the exposure and slope, i
+                    which can strongly influence the usability of the place. In practice, high slope values can
+                    make the mechanization of interventions in the forest more difficult and accentuate the hydrogeological
+                    risk,
+                    while the exposure will have an effect on the potential of the tourist-recreational function
+                    <br> <br>
+                    The property falls largely within the Foreste Casentinesi National Park, it is included in large part
+                    part in the Protection Zones C which include areas of great landscape and natural interest, where the
+                    forest management is carried out according to "multifunctional" cultivation models, capable of carrying
+                    out jointly
+                    functions of environmental, naturalistic, productive, economic and social protection; only to a small
+                    extent does it touch some
+                    Zone B corresponding to areas which should not be affected by other activities than those aimed at
+                    forestry or extensive agricultural management. Furthermore, the SCI/SPA IT4080003 “Monte Gemelli, Monte
+                    Guffone”, with large areas falling within priority zones, which impose legislative constraints
+                    operating.<br> <br>
+                    These last considerations, very important from a design point of view, will not however be considered
+                    during the study
+                    development of the settlement plan, as announced in the introduction.
+                    <br> <br>
+                    The plant composition is diversified among a large number of forest species, in particular, are observed
+                    endemic hardwood forests, among which the presence of beech and black hornbeam is particularly
+                    important, the
+                    which are currently managed with coppice on high slopes and tall trees on smaller slopes; high forests
+                    of
+                    conifers, mainly represented by black pine and spruce, widely used in past years for
+                    carry out artificial reforestation due to their rapid development capacity. Indeed, from the historical
+                    record, yes
+                    deduces how over the years the land use has changed both from an environmental and cultural point of
+                    view
+                    and social.
+                    <br> <br>
                     The main function of the Upper Rabbi forest complex is hydrogeological protection, therefore the
                     productive function plays an entirely secondary role. The strictly economic role is therefore
                     subordinate
                     to social and environmental functions that are not directly quantifiable, but of extremely significant
                     importance ed
                     current. <br> <br>
+
 
 
                     The recreational and environmental tourism functions are already bringing significant economic revenues;
@@ -53,15 +95,8 @@ export default {
 
                     <AppMap :marker_points="marker_points"></AppMap>
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos, nemo recusandae accusamus,
-                    optio ad quasi inventore necessitatibus eos consectetur rerum. Quo repudiandae facere exercitationem
-                    cumque soluta, eos qui deleniti! <br>
+
                 </h5>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, deserunt vel. Nam debitis nihil hic
-                    quae sit voluptatibus commodi soluta. Assumenda laborum officia quidem nulla ab nobis earum, natus
-                    iusto?
-                </p>
 
                 <h4 class="text-center">
                     <a href="#goup" style="color: #13e764;">^ Go Up ^</a>

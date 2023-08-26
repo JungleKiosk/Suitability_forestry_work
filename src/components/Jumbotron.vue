@@ -53,6 +53,15 @@ export default {
                     closely connected with the various <span class="title">functions</span> that forests perform, such as
                     productive, protective,
                     hydrogeological and recreational functions.
+                    <br><br>
+                    Applying an accurate system of cuts means <span class="title">maintaining the forest</span> heritage
+                    well and making it progress
+                    towards a state of greater stability and wealth.
+                    All these ecosystem services are provided without any form of remuneration by the forest owner, but now
+                    it is one of the central themes of the debate we are witnessing and it is through a payment system for
+                    environmental services. <br>
+                    The current historical emblem of ecosystem service is the <span class="title">carbon storage</span>, a plant with a diameter of
+                    1.2 m and 10 m of height in about 110 years of life has stored around 10 tons of C.
                 </h5>
 
                 <div class="row my-5 justify-content-center ">
@@ -132,7 +141,7 @@ export default {
                         <img class="ecoimg_zoom" src="../assets/img/ecoservices/eco_3.jpg" alt="">
                     </div>
 
-                    
+
 
 
 
@@ -200,5 +209,4 @@ img {
 
 .ecoimg_zoom:hover {
     transform: scale(0.9);
-}
-</style>
+}</style>

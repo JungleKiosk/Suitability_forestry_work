@@ -18,16 +18,16 @@ export default {
     <div class="container my-5 txt_jumbo ">
         <div class="container p-4">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-8 col-md-8 bg_item rounded-4 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-8 col-md-8 rounded-4 d-flex align-items-center justify-content-center">
                     <h1 class="title text-center p-2">Methods of analysis</h1>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center my-2">
-            <div class="col-12 col-lg-6 col-md-6 bg_item rounded-4">
+            <div class="col-12 col-lg-6 col-md-6 bg_item_show rounded-4">
                 <div class="d-flex align-items-center justify-content-between p-3">
-                    <h3 class="title">Analysis with a constraint treatment</h3>
+                    <h3 class="title">Constraint treatment</h3>
                     <button class="bg_btn mx-3" @click="toggleContent">{{ showContent ? 'Hide' : 'Show' }}</button>
                 </div>
                 <div v-show="showContent">

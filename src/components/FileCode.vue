@@ -18,9 +18,9 @@ export default {
     <div class="container my-5 txt_jumbo ">
 
         <div class="row justify-content-center my-2">
-            <div class="col-12 col-lg-6 col-md-6 bg_item rounded-4">
+            <div class="col-12 col-lg-6 col-md-6 bg_item_show rounded-4">
                 <div class="d-flex align-items-center justify-content-between p-3">
-                    <h3 class="title">Files & Code</h3>
+                    <h3 class="title">Flow Chart</h3>
                     <button class="bg_btn mx-3" @click="toggleContent">{{ showContent ? 'Hide' : 'Show' }}</button>
                 </div>
                 <div v-show="showContent">
