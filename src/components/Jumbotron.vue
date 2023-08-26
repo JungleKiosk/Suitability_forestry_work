@@ -26,67 +26,78 @@ export default {
                     hydrogeological and recreational functions.
                 </p>
 
-                <div class="row my-5">
+                <div class="row my-5 justify-content-center ">
 
-                    <div class="col-6 col-lg-6">
-                        <h3>Provision Resources</h3>
-                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
-                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
-                            industry, form an essential part of the forest's productive services.
-                        </p>
-
-                    </div>
-                    <div class="col-6 col-lg-6">
-
-                    </div>
-
-                    <div class="col-6 col-lg-6">
-                        
-                    </div>
-                    <div class="col-6 col-lg-6">
-                        <h3>Provision Resources</h3>
-                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
-                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
-                            industry, form an essential part of the forest's productive services.
-                        </p>
+                    <div class="col-8 col-lg-4 my-5 d-flex align-items-center">
+                        <div class="card bg_card">
+                            <h3>Provision Resources</h3>
+                            <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
+                                products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
+                                industry, form an essential part of the forest's productive services.
+                            </p>
+                        </div>
 
                     </div>
-
-                    <div class="col-6 col-lg-6">
-                        <h3>Provision Resources</h3>
-                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
-                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
-                            industry, form an essential part of the forest's productive services.
-                        </p>
-
+                    <div class="col-12 col-lg-6 my-5">
+                        <img src="../assets/img/ecoservices/eco_1.jpg" alt="">
                     </div>
-                    <div class="col-6 col-lg-6">
+
+                    <div class="col-12 col-lg-6">
+                        <img src="../assets/img/ecoservices/eco_2.jpg" alt="">
+                    </div>
+                    <div class="col-8 col-lg-4 my-5 d-flex align-items-center">
+                        <div class="card bg_card">
+                            <h3>Climate Regulation and Microclimate</h3>
+                            <p>Forests help regulate global climate through the sequestration of atmospheric carbon and the
+                                production of oxygen. Furthermore, they influence the local microclimate, providing shade and
+                                cooling the surroundings.
+                            </p>
+                        </div>
 
                     </div>
 
-                    <div class="col-6 col-lg-6">
-                        
+                    <div class="col-4 col-lg-4 my-5 d-flex align-items-center">
+                        <div class="card bg_card">
+                            <h3>Recreational Activities</h3>
+                            <p>Forests provide spaces for recreation and recreation for
+                                people. Outdoor activities such as hiking, cycling, camping and wildlife viewing contribute to
+                                people's physical and mental well-being.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-6">
-                        <h3>Provision Resources</h3>
-                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
-                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
-                            industry, form an essential part of the forest's productive services.
-                        </p>
+                    <div class="col-8 col-lg-6 my-5">
+                        <img src="../assets/img/ecoservices/eco_5.jpg" alt="">
+                    </div>
+
+                    <div class="col-8 col-lg-6">
+                        <img src="../assets/img/ecoservices/eco_4.jpg" alt="">
+                    </div>
+                    <div class="col-4 col-lg-4 my-5 d-flex align-items-center">
+                        <div class="card bg_card">
+                            <h3>Management Water Resources</h3>
+                            <p>Forests play a crucial role in regulating the water cycle. They absorb rainwater, reducing the
+                                risk of flooding and supplying water to the groundwater. Additionally, tree roots help filter
+                                and purify water.
+                            </p>
+                        </div>
 
                     </div>
 
-                    <div class="col-6 col-lg-6">
-                        <h3>Provision Resources</h3>
-                        <p>Woods perform a key productive function, providing a wide range of resources. Timber, non-wood
-                            products such as fruit, mushrooms and medicinal plants, as well as materials for crafts and
-                            industry, form an essential part of the forest's productive services.
-                        </p>
+                    <div class="col-8 col-lg-4 my-5 d-flex align-items-center">
+                        <div class="card bg_card">
+                            <h3>Protection from Natural Disasters</h3>
+                            <p>The protective function of forests is manifested in their ability to mitigate the effects of
+                                extreme natural events. Trees act as natural barriers against landslides, floods and avalanches,
+                                reducing soil erosion and stabilizing hilly and mountainous areas.
+                            </p>
+                        </div>
 
                     </div>
-                    <div class="col-6 col-lg-6">
-
+                    <div class="col-12 col-lg-6 my-5">
+                        <img src="../assets/img/ecoservices/eco_3.jpg" alt="">
                     </div>
+
+
 
 
 
@@ -117,8 +128,21 @@ export default {
 
 
 <style>
+img {
+    width: 100%;
+    border-radius: 3rem;
+}
+
 .logo_text {
     font-weight: bold;
+}
+
+.bg_card{
+    background-color: #333333;
+    color: white;
+    padding: 2rem;
+    border-radius: 3rem;
+    border: 2px solid #13e764;
 }
 
 .ecosystem-services-list {
