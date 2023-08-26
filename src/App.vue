@@ -1,17 +1,25 @@
 <script>
 
+import AppHeader from './components/AppHeader.vue';
+import Jumbotron from './components/Jumbotron.vue';
+
+export default {
+  data() {
+    return {
+    };
+  },
+  components: { AppHeader, Jumbotron }
+}
+
+
 </script>
 
 <template>
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-12">
-        <h1>Suitability Forestry Work</h1>
-      </div>
-    </div>
-  </div>
+  <AppHeader></AppHeader>
+  <Jumbotron></Jumbotron>
 </template>
 
 <style scoped>
+
 
 </style>
