@@ -19,7 +19,7 @@ export default {
         <div class="container p-4">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8 col-md-8 rounded-4 d-flex align-items-center justify-content-center">
-                    <h1 class="title text-center p-2">Methods of analysis</h1>
+                    <h1 class="title text-center p-2">Materials & Methods</h1>
                 </div>
             </div>
         </div>
